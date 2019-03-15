@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function test(){
+      
+      try{
+        y++;
+        return 2
+      }catch(error){
+        console.log(error.message)
+      }finally{
+        console.log("finally")           
+        
+      }
+      console.log("还在执行")
+    } 
+    console.log(test())
+  </script>
+</body>
+</html>
