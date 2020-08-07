@@ -1,5 +1,5 @@
 # ES6
-MarkDown学习
+## MarkDown学习
 
 ### 字体
 **加粗**
